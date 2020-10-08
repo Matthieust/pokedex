@@ -1,4 +1,9 @@
+main {
+    display: flex;
+}
 #list {
+    width: 50%;
+    display: inline-block;
 }
 #list li {
     cursor: pointer;
@@ -8,4 +13,10 @@
 
 #description {
     display: none;
+}
+
+.show {
+    display: inline-block!important;
+    width: 50%;
+    
 }

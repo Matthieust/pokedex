@@ -24,7 +24,7 @@ function emptyList () {
         dd.textContent = "";
     });
     if(document.contains(document.querySelector("img"))){
-        document.querySelector("img").textContent = "";
+        document.querySelector("img").remove();
     }
 
 }
